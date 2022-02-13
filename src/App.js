@@ -17,7 +17,7 @@ function App() {
   const [limitDown, setLimitDown] = useState(4);
   const [login, setLogin] = useState(false);
   const [modal, setModal] = useState(false);
-  const [lang, setLang] = useState(language.uz);
+  const [lang, setLang] = useState(language.ru);
 
   console.log(lang);
 
