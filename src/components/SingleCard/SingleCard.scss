@@ -1,0 +1,164 @@
+.single {
+  padding: 30px 0;
+
+  &__title {
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 40px;
+    margin-bottom: 1em;
+    color: #414d6a;
+  }
+
+  &__img {
+    width: 555px;
+    height: 455px;
+    margin-right: 28px;
+    object-fit: contain;
+  }
+
+  &__wrapper {
+    flex: 1;
+  }
+
+  &__articles {
+    width: 100%;
+  }
+
+  &__article {
+    font-weight: 500;
+    font-size: 14px;
+    margin-bottom: 18px;
+    color: #414d6a;
+  }
+
+  &__price {
+    display: block;
+    font-weight: 500;
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: #444444;
+  }
+
+  &__city {
+    display: block;
+    font-weight: 600;
+    font-size: 14px;
+    text-decoration-line: underline;
+    margin-bottom: 1em;
+    color: #4e72ca;
+    cursor: pointer;
+  }
+
+  &__numbers {
+    width: 330px;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 0 10px;
+    padding-right: 0;
+    margin-bottom: 8px;
+    border-radius: 18px;
+    background: #65e99f;
+
+    &-hide {
+      height: 100%;
+      font-weight: 500;
+      font-size: 15px;
+      padding: 5px 20px;
+      padding-bottom: 8px;
+      margin-left: 8px;
+      border-radius: 18px;
+      background: #41d481;
+      cursor: pointer;
+    }
+  }
+
+  &__author {
+    font-size: 14px;
+    margin-top: 12px;
+    margin-bottom: 24px;
+
+    &-name {
+      font-weight: 700;
+      font-size: 14px;
+      text-decoration-line: underline;
+      margin-left: 4px;
+      color: #2aae63;
+    }
+  }
+
+  .btns {
+    margin-bottom: 24px;
+
+    .btn {
+      font-weight: 700;
+      font-size: 14px;
+      padding: 15px 25px;
+      border-radius: 23px;
+      color: #fff;
+    }
+
+    &__send {
+      margin-right: 12px;
+      background: #304fff;
+    }
+
+    &__suggest {
+      background: #4e72ca;
+    }
+  }
+
+  .desc {
+    margin-bottom: 100px;
+
+    &__list {
+      border-left: 1px solid #97979740;
+    }
+
+    &__item {
+      width: 33.33333%;
+      height: 85px;
+      border-right: 1px solid #97979740;
+      border-bottom: 1px solid #97979740;
+    }
+
+    &__titles {
+      padding: 18px;
+    }
+
+    &__title {
+      display: block;
+      font-weight: 600;
+      font-size: 14px;
+      margin-bottom: 6px;
+    }
+
+    &__txt {
+      font-weight: 500;
+      font-size: 18px;
+    }
+
+    &__lorem {
+      font-weight: 500;
+      font-size: 17px;
+      line-height: 25px;
+      margin-top: 10px;
+      margin-bottom: 20px;
+      color: #414d6a;
+    }
+
+    &__aside {
+      width: 70%;
+      font-weight: 500;
+      font-size: 14px;
+    }
+
+    &__views {
+      margin-left: 30px;
+    }
+
+    &__report {
+      font-weight: 700;
+      color: #D0021B;
+    }
+  }
+}

@@ -1,0 +1,107 @@
+.cards {
+  padding-top: 30px;
+
+  .nav {
+    padding-top: 0;
+    gap: 40px;
+    border-bottom: 1px solid #d5d5d5;
+    margin-bottom: 30px;
+
+    &__item {
+      position: relative;
+      font-weight: 700;
+      font-size: 24px;
+      margin-bottom: 10px;
+      color: #9b9b9b;
+    }
+
+    .active {
+      color: #4e72ca;
+
+      &::after {
+        position: absolute;
+        bottom: -11.5px;
+        left: 20%;
+        width: 60%;
+        height: 1px;
+        display: block;
+        content: "";
+        background: #4e72ca;
+      }
+    }
+  }
+
+  .cards__list {
+    height: 100%;
+    padding-bottom: 30px;
+    gap: 20px;
+    border-bottom: 1px solid #b6cafb9b;
+  }
+
+  .cards__show {
+    text-align: center;
+    margin: 20px 0;
+
+    button {
+      font-weight: 600;
+      font-size: 15px;
+      margin-right: 10px;
+      color: #4e72ca;
+    }
+
+    img {
+      position: relative;
+      top: -2px;
+    }
+  }
+
+  .card {
+    width: 265px;
+    text-align: center;
+    padding-top: 1em;
+    border-radius: 8px;
+    border: 1px solid #d5d5d5;
+    color: #000;
+    cursor: pointer;
+
+    &:hover .card__img {
+      filter: blur(0.6px);
+      opacity: 0.4;
+    }
+
+    &__img {
+      width: 250px;
+      height: 190px;
+      margin-bottom: 6px;
+      object-fit: contain;
+      transition: all 0.3s ease;
+    }
+
+    &__titles {
+      text-align: left;
+      padding: 1em;
+    }
+
+    &__title {
+      width: 100%;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      font-weight: 500;
+      font-size: 16px;
+      margin-bottom: 6px;
+    }
+
+    &__category {
+      font-size: 12px;
+      color: #4a4a4a;
+    }
+
+    &__price {
+      display: block;
+      font-weight: bold;
+      font-size: 16px;
+      line-height: 19px;
+    }
+  }
+}

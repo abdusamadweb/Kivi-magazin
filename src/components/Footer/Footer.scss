@@ -1,0 +1,29 @@
+.footer {
+  padding: 22px 0;
+  background: #282b30;
+
+  &__logo {
+    img {
+      margin-right: 15px;
+    }
+
+    &-txt {
+      max-width: 155px;
+      font-weight: 700;
+      font-size: 14px;
+      color: #ffffff;
+      opacity: 0.1;
+    }
+  }
+
+  &__desc {
+    max-width: 300px;
+    font-weight: 500;
+    font-size: 15px;
+    color: #98a4b7;
+  }
+
+  &__store {
+    gap: 5px;
+  }
+}
