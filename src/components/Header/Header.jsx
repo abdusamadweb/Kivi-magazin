@@ -7,6 +7,7 @@ import logo from "../../assets/images/logo.svg";
 import user from "../../assets/images/user.png";
 
 const Header = ({ login, lang, changeLangUz, changeLangRu }) => {
+  
   return (
     <div className="header">
       <div className="container">
