@@ -31,7 +31,7 @@ const SingleCard = ({ active, limitDown, data, isActive, getCardsDown }) => {
           error: error,
         });
       });
-  }, []);
+  }, [id]);
 
   console.log(card);
 
