@@ -1,4 +1,5 @@
-# You actually view site with https://compassionate-wing-2b700d.netlify.app/
+## You actually view site with
+https://kiwi-shop.netlify.app/
 
 
 # Getting Started with Create React App
